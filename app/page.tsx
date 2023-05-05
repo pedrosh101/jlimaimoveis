@@ -17,7 +17,7 @@ export default function Home() {
   const [city, setCity] = useState("");
   const [neighborhood, setNeighborhood] = useState("");
 
-  const handleSearch = (e) => {
+  const handleSearch = (e: any) => {
     e.preventDefault();
   };
 
